@@ -3,10 +3,9 @@ class Empl {
     Emp_No; Name; Basic; DA; HRA; TA; PF; Gross;
 
     main() {
-        let empl = new Empl()
-        empl.get()
-        empl.calcu()
-        empl.display()
+        this.get()
+        this.calcu()
+        this.display()
     }
 
     get() {

@@ -1,10 +1,9 @@
 class Library {
     acc_num; title; author;
     main() {
-        let library = new Library;
-        library.input();
-        library.compute();
-        library.display();
+        this.input();
+        this.compute();
+        this.display();
     }
     input() {
         this.acc_num = prompt("Enter accession number")
