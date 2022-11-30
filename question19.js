@@ -22,8 +22,8 @@ class ElectricBill {
 
         }
         else if (this.units > 200 && this.units >= 300) {
-            this.charged = this.bill * (2.5 / 100);
-            this.bill = 5 * this.units + this.charged;//here error undefined comes
+            this.charged = this.units * (2.5 / 100);
+            this.bill = 5 * this.units + this.charged;
         }
     }
 
